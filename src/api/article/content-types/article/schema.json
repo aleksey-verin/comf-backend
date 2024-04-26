@@ -1,0 +1,102 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "singularName": "article",
+    "pluralName": "articles",
+    "displayName": "Article",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "preview_title": {
+      "type": "string",
+      "required": true,
+      "default": "Название статьи для превью"
+    },
+    "preview_subtitle": {
+      "type": "text",
+      "required": true,
+      "default": "Описание статьи для превью",
+      "maxLength": 200
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "regex": "^[a-z-0-9]*$"
+    },
+    "preview_picture_desktop": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "preview_picture_tablet": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "preview_picture_mobile": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "preview_text_for_button": {
+      "type": "string",
+      "default": "Узнать больше",
+      "required": false,
+      "maxLength": 30
+    },
+    "promo_title": {
+      "type": "string",
+      "required": true
+    },
+    "promo_image_desktop": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "promo_image_tablet": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "promo_image_mobile": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "article_section": {
+      "type": "dynamiczone",
+      "components": [
+        "article-section-component.nachalo-bloka",
+        "article-section-component.paragraf",
+        "article-section-component.odna-kartinka-67-sprava",
+        "article-section-component.odna-kartinka-100",
+        "article-section-component.dve-kartinki-50-50",
+        "article-section-component.dve-kartinki-33-66"
+      ]
+    }
+  }
+}

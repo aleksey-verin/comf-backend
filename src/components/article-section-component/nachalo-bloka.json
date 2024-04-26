@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_article_section_component_nachalo_bloka",
+  "info": {
+    "displayName": "Начало блока",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "section_anchor": {
+      "type": "string",
+      "required": true,
+      "regex": "^[a-z]*$",
+      "unique": false,
+      "maxLength": 30
+    }
+  }
+}

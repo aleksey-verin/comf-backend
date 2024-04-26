@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_article_section_component_odna_kartinka_67_sprava_s",
+  "info": {
+    "displayName": "Одна картинка (67% справа)",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

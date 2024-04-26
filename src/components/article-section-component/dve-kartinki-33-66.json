@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_article_section_component_dve_kartinki_33_66_s",
+  "info": {
+    "displayName": "Две картинки (33%, 66%)",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "image_left": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_right": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

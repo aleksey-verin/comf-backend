@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_article_section_component_paragraf",
+  "info": {
+    "displayName": "Параграф",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "blocks"
+    }
+  }
+}

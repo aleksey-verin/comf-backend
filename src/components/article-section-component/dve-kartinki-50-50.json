@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_article_section_component_dve_kartinki_50_50_s",
+  "info": {
+    "displayName": "Две картинки (50% | 50%)",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "image_one": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_two": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
